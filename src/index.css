@@ -1,0 +1,52 @@
+:root {
+  background-color: #999;
+  background-image: url(./assets/beautiful-shot-grassy-hills-covered-trees-near-mountains-dolomites-italy.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 1.5rem;
+
+}
+
+body ul {
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  /* gap: 30px; */
+  justify-content: space-evenly;
+}
+
+a {
+  color: rgb(190, 127, 10);
+  text-decoration: none;
+  padding: 20px;
+}
+
+a:hover {
+  background-color: rgba(190, 127, 10, 0.2);
+  border-radius: 10px;
+}
+
+.mainContent {
+  text-align: center;
+  margin-top: 330px;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: white;
+
+}
